@@ -15,8 +15,8 @@ def click(event):
         except Exception:
             entry.delete(0, tk.END)
             entry.insert(tk.END, "Error")
-#when user press C
-    elif btn_text == "C":
+#when user press AC
+    elif btn_text == "AC":
         entry.delete(0, tk.END)
 #when user press ⌫
     elif btn_text == "⌫":
